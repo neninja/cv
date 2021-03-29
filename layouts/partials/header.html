@@ -1,0 +1,25 @@
+<div class="titleHeader" style="width: 100%">
+    Atualizado em {{ now.Format "01/2006"}}
+    {{ range .Site.Data.features.about }}
+    <h1 class="name">{{ .name }}</h1>
+    {{ if $.Site.Params.display.tagline }}<h3 class="tagline">{{ .tagline }}</h3>{{end}}
+    {{ if $.Site.Params.display.contact }}
+    <span class="contact">
+        <a href="mailto:{{ .email }}">{{ .email }}</a> | {{ .address }}
+    </span>
+    {{ end }}
+    {{ with .links }}
+    <div style="display: inline-block;">
+    {{ range . }}
+    <a href="{{.url}}" style="padding-right: 1rem;">
+        {{ if $.Site.Params.useFontAwesome }}<i class="{{ .icon }}"></i>{{ end }}
+        {{ .label }}
+    </a>
+    {{ end }}
+    </div>
+    {{ end }}
+    {{ end }}
+</div>
+{{ if .Site.Params.display.avatar }}
+<div><img class="avatar right" src="{{.Site.Params.avatar}}"></div>
+{{ end }}

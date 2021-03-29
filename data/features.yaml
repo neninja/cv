@@ -1,0 +1,38 @@
+skills:
+  - PHP
+  - Javascript
+  - Git
+  - Hugo
+
+interests:
+  - Arquitetura
+  - Testes
+  - SSG
+  - Programação funcional
+
+certificates:
+  - name: "Cursos da Alura, Rocketseat e School of net"
+
+about:
+  - name: "Felipe Silva"
+    tagline: Desenvolvedor
+    email: "oi@neni.dev"
+    address: "Porto Alegre/RS - Brasil"
+    details: "Gosto de criar sistemas web, sites/blogs estáticos e scripts para automatizar tarefas maçantes."
+    links:
+      - label: Site
+        url: http://neni.dev
+        icon: fas fa-link
+
+      - label: Linkedin
+        url: http://linkedin.com/in/nenitf
+        icon: fab fa-linkedin
+
+      - label: Github
+        url: http://github.com/nenitf
+        icon: fab fa-github
+
+      - label: Telegram
+        url: http://t.me/nenitf
+        icon: fab fa-telegram
+
