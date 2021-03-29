@@ -11,7 +11,10 @@ interests:
   - Programação funcional
 
 certificates:
-  - name: "Cursos da Alura, Rocketseat e School of net"
+  - name: "Cursos de aprimoramento"
+    link: "http://linkedin.com/in/nenitf"
+    issued_by: Alura, Rocketseat, School of net e Udemy
+    date: 2017 em diante
 
 about:
   - name: "Felipe Silva"

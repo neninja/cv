@@ -31,7 +31,7 @@ params:
     aboutMe: true
     projects: false
     publications: false
-    certificates: false
+    certificates: true
     avatar: false
 
     footer:
