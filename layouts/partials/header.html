@@ -12,8 +12,7 @@
     <div style="display: inline-block;">
     {{ range . }}
     <a href="{{.url}}" style="padding-right: 1rem;">
-        {{ if $.Site.Params.useFontAwesome }}<i class="{{ .icon }}"></i>{{ end }}
-        {{ .label }}
+        {{ if $.Site.Params.useFontAwesome }}<i class="{{ .icon }}" style="padding-right: 5px;"></i>{{ end }}{{ .label }}
     </a>
     {{ end }}
     </div>
