@@ -1,8 +1,14 @@
+- company: Winker
+  roles:
+    - role: Programador FullStack PHP Pleno
+      details: "Desenvolvimento sob demanda no Jira utilizando PHP 7 (Yii), HTML, CSS e Javascript (JQuery e AngularJS); Criação de testes de unidade com PHPUnit; Versionamento com Git; Integração com web services e banco de dados (MySQL e Redis); Configuração do ambiente de desenvolvimento com Docker."
+      date: "08/2021 até o momento"
+
 - company: OAB/RS
   roles:
     - role: Programador Pleno
-      details: "Desenvolvimento de sistemas utilizando PHP, HTML, CSS e Javascript; Versionamento e deploy com Git"
-      date: "12/2020 até o momento"
+      details: "Desenvolvimento de sistemas utilizando PHP 7 (Phalcon), HTML, CSS (Semantic UI) e Javascript (JQuery e modulos ES6); Versionamento com Git; Criação/documentação de fluxos para auxiliar no desenvolvimento e deploy com Composer, NPM, Webpack, Editor Config e Git; Integração com web services e banco de dados Microsoft SQL Server; Configuração do ambiente de desenvolvimento com Vagrant e Docker."
+      date: "12/2020 até 08/2021"
 
     - role: Programador Júnior
       details: "Desenvolvimento de sistemas utilizando PHP, HTML, CSS e Javascript; Versionamento e deploy com Git"
