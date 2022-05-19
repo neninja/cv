@@ -1,6 +1,6 @@
 - company: Winker
   roles:
-    - role: Programador FullStack PHP Pleno
+    - role: Programador PHP Full Stack Pleno
       details: "Desenvolvimento sob demanda no Jira utilizando PHP 7 (Yii), HTML, CSS e Javascript (JQuery e AngularJS); Criação de testes de unidade com PHPUnit; Versionamento com Git; Integração com web services e banco de dados (MySQL e Redis); Configuração do ambiente de desenvolvimento com Docker."
       date: "08/2021 até o momento"
 

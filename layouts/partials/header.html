@@ -1,24 +1,42 @@
-<div class="titleHeader" style="width: 100%">
-    <span>Atualizado em {{ now.Format "01/2006"}}. Acesse <a href="http://neni.dev/cv">neni.dev/cv</a></span>
-    {{ range .Site.Data.features.about }}
-    <h1 class="name">{{ .name }}</h1>
-    {{ if $.Site.Params.display.tagline }}<h3 class="tagline">{{ .tagline }}</h3>{{end}}
-    {{ if $.Site.Params.display.contact }}
-    <span class="contact">
-        <a href="mailto:{{ .email }}">{{ .email }}</a> | {{ .address }}
-    </span>
-    {{ end }}
-    {{ with .links }}
-    <div style="display: inline-block;">
-    {{ range . }}
-    <a href="{{.url}}" style="padding-right: 1rem;">
-        {{ if $.Site.Params.useFontAwesome }}<i class="{{ .icon }}" style="padding-right: 5px;"></i>{{ end }}{{ .label }}
-    </a>
-    {{ end }}
-    </div>
-    {{ end }}
-    {{ end }}
+<div class="title">
+    <a href="http://neni.dev/cv">Atualizado em {{ now.Format "01/2006"}}</a>
+	{{ with .Data.features.about }}
+		<h1 class="name">{{ .name }}</h1>
+		{{ if $.Header.tagline }}<h2 class="tagline">{{ .tagline }}</h2>{{end}}
+		{{ if $.Header.contact -}}
+			<span class="contact">
+				{{- with .phone -}}
+					{{- if $.useFontAwesome }}<i class="fas fa-phone-square-alt"></i> {{ end -}}
+					{{- . -}}
+				{{- end -}}
+				{{- if and .phone .email }} | {{ end -}}
+				{{- with .email -}}
+					<a href="mailto:{{- . -}}" class="no-external-icon">
+						{{- if $.useFontAwesome }}<i class="fas fa-envelope"></i> {{ end -}}
+						{{- . -}}
+					</a>
+				{{- end -}}
+				{{- if or .phone .email }} | {{ end -}}
+				{{- with .address -}}
+					{{- if $.useFontAwesome }}<i class="fas fa-map-marker-alt"></i> {{ end -}}
+					{{- . -}}
+				{{- end -}}
+			</span>
+		{{- end }}
+		{{ if $.Header.links -}}
+			<span class="contact-links">
+				{{- $last := sub (len .links) 1 -}}
+				{{- range $i, $e := .links -}}
+				<a href="{{ $e.url }}" class="no-external-icon">
+					{{- if and $e.icon $.useFontAwesome }}<i class="{{ $e.icon }}"></i> {{ end -}}
+					{{- $e.title -}}
+				</a>
+				{{- if ne $i $last }} | {{ end -}}
+				{{- end -}}
+			</span>
+		{{ end }}
+	{{ end }}
 </div>
-{{ if .Site.Params.display.avatar }}
-<div><img class="avatar right" src="{{.Site.Params.avatar}}"></div>
+{{ if .Header.avatar }}
+<div><img class="avatar right" src="{{ .Header.avatar }}"></div>
 {{ end }}

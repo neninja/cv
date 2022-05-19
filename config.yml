@@ -1,61 +1,44 @@
 baseURL: http://neni.dev/cv
-languageCode: pt-br
 title: Felipe Silva | CV
 description: Felipe Silva's basic Curriculum Vitae
+languageCode: pt-br
+
 theme: resume-a4
-disableKinds:
-  - taxonomy
-  - term
-  - page
-  - section
-  - RSS
-  - sitemap
-  - robotsTXT
-  - 404
+disableKinds: ["taxonomy", "taxonomyTerm", "term", "page", "section", "RSS", "sitemap", "robotsTXT", "404"]
 
 params:
   useFontAwesome: true
-  bib_style: IEEE # IEEE, APA, else
-
-  display:
-    experience: true
-    education: true
-    languages: false
-    awards: false
-    skills: true
-    skills_grouped: false
-    interests: true
-    contact: true
-    linkedin: true
+  css:
+    - print_urls.scss
+  header:
     tagline: true
-    aboutMe: true
-    projects: false
-    publications: false
-    certificates: true
-    avatar: false
+    contact: true
+    links: true
 
-    footer:
-      footer: true
-      links: true
-      credits: true
+  side:
+    - feature: education
+      title: Formação
+    - feature: skills
+      title: Competências
+      widget: word-list
+      style: compact # list, compact, title-list
+    - feature: interests
+      title: Interesses
+      widget: word-list
+      style: compact # list, compact, title-list
+    - feature: certificates
+      title: Certificados
 
-  title_as:
-    experience: Experiências
-    education: Formação
-    skills: Competências
-    certificates: Certificados
-    interests: Interesses
-    about_me: Sobre mim
-    publications: Publications
-    projects: Projects
+  pages:
+    - features:
+        - feature: about
+          title: Sobre mim
+        - feature: experience
+          title: Experiências
+#    - features:
+#        - feature: projects
+#          title: Projetos
 
   footer:
-    links:
-      link:
-        - prefix: Powered by
-          name: Hugo
-          url: https://gohugo.io/
-
-        - prefix: ""
-          name: Github Pages
-          url: https://pages.github.com/
+    show: true
+    credits: true
