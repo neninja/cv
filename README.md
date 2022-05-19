@@ -11,8 +11,4 @@
 
 ## Créditos
 
-Agradeço ao template [Resume-A4](https://gitlab.com/mertbakir/resume-a4) disponibilizado, cujo precisei sobrescrever mínimos detalhes.
-
-## TODO
-
-- [ ] Criar web scraper em uma gh-action (`dispatch-workflow`) para atualizar informações de acordo com linkedin
+Agradeço ao template [Resume-A4](https://gitlab.com/mertbakir/resume-a4) disponibilizado, cujo precisei sobrescrever mínimos detalhes do meu interesse.
