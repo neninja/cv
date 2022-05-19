@@ -1,22 +1,18 @@
-# Curriculum Vitae
+# Meu Curriculum Vitae
 
-Curriculum base
+- Disponível online
+- Atualizações diretamente nos arquivos `data/*.yml`
 
-## Setup local
+## Desenvolvimento
 
-- Baixar versão estendida do [hugo](https://github.com/gohugoio/hugo/releases)
-- Subir servidor com ``hugo server`` e acessar ``localhost:1313``
+- Baixe versão estendida do [hugo](https://github.com/gohugoio/hugo/releases)
+- Suba o servidor com ``hugo server``
+- Acesse ``localhost:1313/cv``
 
 ## Créditos
 
-Todos créditos tanto para as funcionalidades essenciais quanto para o design do curriculum para [Mert Bakir](https://gitlab.com/mertbakir) com [Resume-A4](https://gitlab.com/mertbakir/resume-a4).
-> [Artigo](https://mertbakir.gitlab.io/projects/resume-a4/) sobre o Resume-A4
+Agradeço ao template [Resume-A4](https://gitlab.com/mertbakir/resume-a4) disponibilizado, cujo precisei sobrescrever mínimos detalhes.
 
 ## TODO
 
-- [ ] Criar novo tema com
-    - [ ] Diferentes layouts e cores disponíveis
-    - [ ] Tags para criar diferentes CVs
-    - [ ] `window.prompt` escondido para adicionar valores específicos no CV (como telefone)
-    - [ ] pt-br e en-us
-- [ ] Criar web scraper para atualizar informações de acordo com linkedin
+- [ ] Criar web scraper em uma gh-action (`dispatch-workflow`) para atualizar informações de acordo com linkedin
