@@ -16,12 +16,12 @@ params:
     links: true
 
   side:
-    - feature: education
-      title: Formação
+#   - feature: education
+#     title: Formação
     - feature: skills
       title: Competências
       widget: word-list
-      style: compact # list, compact, title-list
+      style: title-list # list, compact, title-list
     - feature: interests
       title: Interesses
       widget: word-list
@@ -31,8 +31,10 @@ params:
 
   pages:
     - features:
-        - feature: about
-          title: Sobre mim
+        - feature: education
+          title: Formação
+#       - feature: about
+#         title: Sobre mim
         - feature: experience
           title: Experiências
 #    - features:

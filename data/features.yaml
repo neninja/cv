@@ -20,7 +20,9 @@ about:
 
 skills:
   - groupName: Programação
-    list: [PHP, Javascript, Git, Hugo]
+    list:
+      - PHP (4 anos)        # desde 2018
+      - Javascript (4 anos) # desde 2018
 
 interests:
   - groupName: Programação
