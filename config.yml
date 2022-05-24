@@ -16,8 +16,8 @@ params:
     links: true
 
   side:
-#   - feature: education
-#     title: Formação
+    - feature: education
+      title: Formação
     - feature: skills
       title: Competências
       widget: word-list
@@ -31,8 +31,6 @@ params:
 
   pages:
     - features:
-        - feature: education
-          title: Formação
 #       - feature: about
 #         title: Sobre mim
         - feature: experience
