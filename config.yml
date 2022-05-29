@@ -11,6 +11,7 @@ params:
   css:
     - print_urls.scss
   header:
+    avatar: false
     tagline: true
     contact: true
     links: true
