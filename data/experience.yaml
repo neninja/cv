@@ -1,8 +1,14 @@
+- company: Idez Digital
+  roles:
+    - role: Programador PHP Pleno
+      details: "Desenvolvimento ágil utilizando PHP 8 (Laravel com Sail) com testes; Versionamento com Git; Integração com banco de dados (PostgreSQL e Redis)."
+      date: "05/2022 até o momento"
+
 - company: Winker
   roles:
     - role: Programador PHP Full Stack Pleno
       details: "Desenvolvimento sob demanda no Jira utilizando PHP 7 (Yii), HTML, CSS e Javascript (JQuery e AngularJS); Criação de testes de unidade com PHPUnit; Versionamento com Git; Integração com web services e banco de dados (MySQL e Redis); Configuração do ambiente de desenvolvimento com Docker."
-      date: "08/2021 até o momento"
+      date: "08/2021 até 05/2022"
 
 - company: OAB/RS
   roles:
