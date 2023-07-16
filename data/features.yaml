@@ -21,8 +21,8 @@ about:
 skills:
   - groupName: Programação
     list:
-      - PHP (4 anos)        # desde 2018
-      - Javascript (4 anos) # desde 2018
+      - PHP
+      - Javascript
 
 interests:
   - groupName: Programação

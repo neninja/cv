@@ -1,6 +1,8 @@
 # theme
 resources
 
+.hugo_build.lock
+
 # Test files
 node_modules
 npm-debug.log

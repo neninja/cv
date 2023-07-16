@@ -1,7 +1,7 @@
 - company: Idez Digital
   roles:
-    - role: Programador Pleno
-      details: "Desenvolvimento ágil com testes utilizando PHP 8 (Laravel com Sail); Versionamento com Git; Integração com banco de dados (PostgreSQL e Redis); Front-end com ReactJS, Vite e Tailwind."
+    - role: Programador PHP Pleno
+      details: "Desenvolvimento ágil com testes utilizando principalmente PHP 8, Laravel, Sail e Nova; Front-end com ReactJS, Vite, Vitest, Testing library e Tailwind; Revisão de PRs."
       date: "05/2022 até o momento"
 
 - company: Winker
