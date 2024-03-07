@@ -9,10 +9,10 @@ about:
       url: http://neni.dev
       icon: fas fa-globe
     - title: nenitf
-      url: https://www.linkedin.com/in/nenitf
+      url: https://www.linkedin.com/in/neninja
       icon: fab fa-linkedin
     - title: nenitf
-      url: https://github.com/nenitf
+      url: https://github.com/neninja
       icon: fab fa-github
   details: |
     Progr**amo** sistemas, sites/blogs estáticos e ferramentas/scripts.
@@ -42,4 +42,4 @@ certificates:
   - title: Cursos de aprimoramento
     subtitle: Alura, Rocketseat, School of net e Udemy
     date: "2017 em diante"
-    link: http://linkedin.com/in/nenitf
+    link: http://linkedin.com/in/neninja
