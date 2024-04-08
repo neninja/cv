@@ -22,7 +22,10 @@ skills:
   - groupName: Programação
     list:
       - PHP
+      - Laravel
       - Javascript
+      - AlpineJS
+      - Tailwind
 
 interests:
   - groupName: Programação
