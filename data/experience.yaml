@@ -1,8 +1,13 @@
+- company: Badesul
+  roles:
+    - role: Arquiteto de software
+      date: "11/2024 até o momento"
+
 - company: Idez Digital
   roles:
     - role: Programador PHP Pleno
-      details: "Desenvolvimento ágil com testes utilizando principalmente PHP 8, Laravel, Sail e Nova; Front-end com ReactJS, Vite, Vitest, Testing library, AlpineJS e Tailwind; Revisão de PRs."
-      date: "05/2022 até o momento"
+      details: "Desenvolvimento ágil com testes utilizando principalmente PHP 8, Laravel, Sail e Nova; Front-end com ReactJS, Vite, Vitest, Testing library, AlpineJS e Tailwind; Revisão de PRs; Metodologia Scrum, com sprint, daily, retro e planning; Elaboração de treinamentos internos."
+      date: "05/2022 até 10/2024"
 
 - company: Winker
   roles:
